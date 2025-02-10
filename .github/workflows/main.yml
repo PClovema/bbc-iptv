@@ -55,11 +55,11 @@ jobs:
           git commit -m "Archive file with timestamp"
           
     - name: Push changes
-  run: |
-    git config --global user.email "actions@github.com"
-    git config --global user.name "GitHub Actions"
-    git remote set-url origin https://x-access-token:${{ secrets.MY_GITHUB_PAT }}@github.com/PClovema/bbc-iptv.git
-    git pull --rebase origin main || git reset --hard origin/main
-    git push origin main
+      run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.MY_GITHUB_PAT }}@github.com/PClovema/bbc-iptv.git
+          git pull --rebase origin main || git reset --hard origin/main
+          git push origin main
     
         
