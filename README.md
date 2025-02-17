@@ -8,4 +8,4 @@
 |白名单| （whitelist_auto.txt） |  不定时 | 高响应源汇至直播源   | |
 
 ```
-[https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/merged_output.txt](https://raw.githubusercontent.com/PClovema/bbc-iptv/main/merged_output.txt)
+[https://raw.githubusercontent.com/PClovema/bbc-iptv/main/merged_output.txt]
